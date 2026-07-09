@@ -99,3 +99,26 @@ main {
     border: 4px solid #ffffff;
     box-shadow: 0 0 15px whitesmoke;
 }
+
+#Home h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+#Home p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.15rem;
+}
+
+#Home a {
+    display: inline-block;
+    padding: 14px 32px;
+    text-decoration: none;
+    background: hsl(297, 55%, 33%);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(240, 112, 221, 0.781);
+}
