@@ -368,3 +368,42 @@ footer a:hover {
 #Home, #About, #Profile, #Galery, #Video, #BukuTamu {
     animation: fadeUp 0.8s ease;
 }
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home-content {
+        flex-direction: column-reverse; /* Gambar di atas teks */
+        text-align: center;
+        gap: 30px;
+    }
+
+    #Home h2 {
+        font-size: 2.7rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+}
