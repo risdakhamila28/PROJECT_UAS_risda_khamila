@@ -157,3 +157,24 @@ main {
 .profile-photo {
     margin-bottom: 25px;
 }
+
+#Profile img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 60px 20px 60px 20px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 15px whitesmoke;
+}
+
+#profile h3 {
+    color: #38bdf8;
+    margin: 20px 0;
+}
+
+#Profile p {
+    text-align: justify;
+    text-indent: 2em;
+    margin-bottom: 15px;
+    color: white;
+}
