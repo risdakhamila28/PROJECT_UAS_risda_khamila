@@ -52,3 +52,15 @@ header {
     border-bottom: 2px solid white;
     backdrop-filter: blur(10px);
 }
+
+header h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
