@@ -16,3 +16,14 @@ body {
     color: #cbd5e1;
     line-height: 1.7;
 }
+
+h1, h2 {
+    font-family: "Felipa", serif;
+}
+
+h3,
+h4 {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    line-height: 1.2;
+}
