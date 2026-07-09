@@ -369,7 +369,6 @@ footer a:hover {
     animation: fadeUp 0.8s ease;
 }
 
-
 @keyframes fadeUp {
     from {
         opacity: 0;
@@ -407,3 +406,40 @@ footer a:hover {
         font-size: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    section {
+        padding: 60px 20px; 
+    }
+    
+    nav ul {
+        gap: 15px;
+    }
+
+    #Home h2 {
+        font-size: 2rem;
+    } 
+
+    #Home p {
+        font-size: 1.1rem;
+    }
+
+    #Profile img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #Galery ul, #Video ul {
+        grid-template-columns: 1fr; /* 1 baris ke bawah penuh di HP */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul a {
+        font-size: 14px;
+    }
