@@ -289,3 +289,27 @@ main {
     backdrop-filter: blur(10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #670A0A;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s;
+    background: transparent;
+    color: #670A0A;
+}
