@@ -242,3 +242,29 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 25px;
 }
+
+#Video figure {
+    background: rgb(222, 170, 216);
+    padding: 15px;
+    border-radius: 60px 15px 60px 15px;
+    transition: 0.3s;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(243, 182, 240, 0.914);
+}
+
+#Video figure:hover {
+    transform: translateY(-5px);
+}
+#Video video {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+#Video figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
