@@ -332,3 +332,27 @@ button {
     cursor: pointer;
     transition: 0.3s;
 }
+
+button:hover {
+   background: hsl(288, 32%, 52%);
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: hsl(304, 73%, 30%);
+    border-top: 2px solid hsl(304, 73%, 30%);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fbfbfa;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
