@@ -140,3 +140,20 @@ main {
     text-indent: 2em;
     color: white;
 }
+
+#Profile {
+    padding: 100px 20px;
+}
+
+.profile-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: left;
+}
+
+.profile-photo {
+    margin-bottom: 25px;
+}
