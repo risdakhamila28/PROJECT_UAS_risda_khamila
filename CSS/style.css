@@ -313,3 +313,22 @@ main {
     background: transparent;
     color: #670A0A;
 }
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    background: rgba(103, 10, 10, 0.05);
+}
+
+button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    background: #872b7e;
+    color: #271c19;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
