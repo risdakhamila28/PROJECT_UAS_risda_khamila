@@ -9,3 +9,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Poppins";
+    background-color: hsla(304, 42%, 39%, 0.964);
+    color: #cbd5e1;
+    line-height: 1.7;
+}
