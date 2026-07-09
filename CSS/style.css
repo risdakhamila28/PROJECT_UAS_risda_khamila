@@ -222,3 +222,23 @@ main {
     font-size: 12px;
     font-weight: 600;
 }
+
+.foto-card figcaption {
+    padding: 20px;
+}
+
+.foto-card h4 {
+    color: hsla(59, 99%, 50%, 0.703);
+    margin-bottom: 10px;
+}
+
+#Video {
+    padding: 100px 20px;
+}
+
+#Video ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
