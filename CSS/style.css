@@ -443,3 +443,21 @@ footer a:hover {
     nav ul a {
         font-size: 14px;
     }
+
+#Home h2 {
+        font-size: 1.6rem;
+    }
+
+    #Profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .foto-card img {
+        height: 220px;
+    }
+
+    .guestbook {
+        padding: 20px 15px; 
+    }
+}
