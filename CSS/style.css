@@ -263,6 +263,13 @@ main {
     color: white;
 }
 
+#Video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;  
+    border: none;
+    border-radius: 10px;
+}
+
 #BukuTamu {
     padding: 80px 20px;
     background: hsla(304, 40%, 33%, 0.964);
