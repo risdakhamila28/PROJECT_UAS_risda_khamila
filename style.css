@@ -161,7 +161,7 @@ main {
     box-shadow: 0 0 15px whitesmoke;
 }
 
-#Profile h3 {
+#profile h3 {
     color: #38bdf8;
     margin: 20px 0;
 }
@@ -221,7 +221,7 @@ main {
     padding: 20px;
 }
 
-.foto-card h4 {
+.foto-card h3 {
     color: hsla(59, 99%, 50%, 0.703);
     margin-bottom: 10px;
 }
@@ -262,6 +262,14 @@ main {
     margin-top: 10px;
     color: white;
 }
+
+#Video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;  
+    border: none;
+    border-radius: 10px;
+}
+
 #BukuTamu {
     padding: 80px 20px;
     background: hsla(304, 40%, 33%, 0.964);
@@ -437,7 +445,7 @@ footer a:hover {
         font-size: 14px;
     }
 
-    #Home h2 {
+#Home h2 {
         font-size: 1.6rem;
     }
 
